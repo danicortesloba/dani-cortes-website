@@ -11,33 +11,33 @@ import {
 
 const navButtons = [
   {
-    label: "About Dani",
+    label: "Sobre Dani",
     path: "/",
     icon: <FontAwesomeIcon icon={faUser} />
   },
   {
-    label: "Publications",
-    path: "/publications",
+    label: "Publicaciones",
+    path: "/publicaciones",
     icon: <FontAwesomeIcon icon={faPenFancy} />
   },
   {
-    label: "Photography",
-    path: "/photography",
+    label: "Fotografía",
+    path: "/fotografia",
     icon: <FontAwesomeIcon icon={faCameraRetro} />
   },
   {
-    label: "Interviews",
-    path: "/interviews",
+    label: "Entrevistas",
+    path: "/entrevistas",
     icon: <FontAwesomeIcon icon={faMicrophoneAlt} />
   },
   {
-    label: "Editing",
-    path: "/editing",
+    label: "Edición",
+    path: "/edición",
     icon: <FontAwesomeIcon icon={faBook} />
   },
   {
-    label: "Contact",
-    path: "/contact",
+    label: "Contacto",
+    path: "/contacto",
     icon: <FontAwesomeIcon icon={faEnvelope} />
   }
 ];
