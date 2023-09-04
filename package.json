@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "format": "prettier --check --ignore-path .gitignore .",
-    "format:fix": "prettier --write --ignore-path .gitignore ."
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "lint": "next lint"
   },
   "dependencies": {
     "date-fns": "^2.29.3",
@@ -22,6 +23,8 @@
   "devDependencies": {
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
     "prettier": "^3.0.3",
     "typescript": "5.2.2"
   }
