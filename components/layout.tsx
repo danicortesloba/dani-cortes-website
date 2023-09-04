@@ -1,36 +1,29 @@
-import Head from 'next/head'
-import styles from './layout.module.css'
-import Header from './header'
-import Link from 'next/link'
+import styles from "./Layout.module.css";
+import Head from "next/head";
 import NavBar from "./NavBar";
 import navButtons from "../config/buttons";
+import Header from "./header"
 
-
-export const siteTitle = 'Dani Cortés Website'
-
-export default function Layout({
-  children
-}: {
-  children: React.ReactNode
-  home?: boolean
-}) {
+const Layout = props => {
   return (
-    <div className={styles.container}>
-      <Head >
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Dani Cortes' website"
-        />
+    <div className={styles.Layout}>
+      <Head>
+        <title>DANI CORTES</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
       </Head>
-      <header className={styles.Header}>
-      <Header />
-      </header>
+      <div className={styles.Header}>
+        <Header />
+      </div>
+      
+      
       <div className={styles.Body}>
         <div className={styles.Menu}> <NavBar navButtons={navButtons}/></div>
-        <div className={styles.Content}>{children} </div>
+        <div className={styles.Content}>{props.children} </div>
       </div>
-      <main>{children}</main>
+
     </div>
-  )
-}
+  );
+};
+
+export default Layout;
