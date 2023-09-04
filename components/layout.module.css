@@ -1,13 +1,24 @@
-.container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+.Header {
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
 }
 
-.header {
+.Body {
+  margin: 10px 10px 10px 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  height: 900px;
+}
+
+.Content {
+  text-align: center;
+  width: 70%;
+}
+
+.Menu {
+  border-right: black 2px solid;
+  margin-top: 100px;
 }
 
 .backToHome {

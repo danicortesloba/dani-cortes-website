@@ -1,0 +1,21 @@
+.NavButton {
+  color: black;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Icon {
+  font-size: 30px;
+  justify-self: left;
+}
+
+.Label {
+  margin-left: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: left;
+}
