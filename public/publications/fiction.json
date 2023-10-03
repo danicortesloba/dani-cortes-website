@@ -1,12 +1,20 @@
 {
     "pieces":[
-    {
-        "title": "The Coat",
-        "link": "yes"
-    },
-    {
-        "title": "Zombie",
-        "link": "yes"
-    }
+        {
+            "title": "The Coat",
+            "link": "https://letras.uc.cl/wp-content/uploads/2023/07/issue25full.pdf"
+        },
+        {
+            "title": "Herencia",
+            "link": "https://www.buscalibre.cl/libro-imaginarias-secretos-de-la-abuela-para-ser-libres-varias-autoras-triada-ediciones/9789569362385/p/54445435"
+        },
+        {
+            "title": "El cuerpo",
+            "link": "https://www.buscalibre.cl/libro-zombies-chilenos-cuentos-no-muertos-nacionales/9789560907639/p/52236405?&gclid=CjwKCAjw9-6oBhBaEiwAHv1QvJhm-7ihArqro_ThXnOccaguLLYeBoLk3IwskBbssEVAgxQRJlZHahoCw-AQAvD_BwE"
+        },
+        {
+            "title": "The Body",
+            "link": "https://drive.google.com/file/d/1OjDZ_V1IB1ZsIFys_1UMd54sk5MTkyWw/view"
+        }
     ]
 }

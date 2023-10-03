@@ -1,12 +1,28 @@
 {
     "pieces":[
-    {
-        "title": "Poem",
-        "link": "yes"
-    },
-    {
-        "title": "Zombie",
-        "link": "yes"
-    }
+        {
+            "title": "El grito",
+            "link": "https://www.instagram.com/valprotesta/"
+        },
+        {
+            "title": "La sabiduría del agua",
+            "link": "https://www.instagram.com/valprotesta/"
+        },
+        {
+            "title": "Ataduras",
+            "link": "https://www.instagram.com/edicionesinti/"
+        },
+        {
+            "title": "The Wolf Who Cried Girl",
+            "link": "https://loba-ediciones.myshopify.com/products/the-wolf-who-cried-girl"
+        },
+        {
+            "title": "Bodied",
+            "link": "http://www.avatarreview.net/AV15/category/poetry/daniela-cortes-del-castillo/"
+        },
+        {
+            "title": "Remix",
+            "link": "http://www.avatarreview.net/AV15/category/poetry/daniela-cortes-del-castillo/"
+        }
     ]
 }

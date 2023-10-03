@@ -39,7 +39,7 @@ const Publicaciones = () => {
   <TabPanel>
     <div>
     <h2>No Ficción</h2>
-    {fiction.pieces.map((piece) => (
+    {nonfiction.pieces.map((piece) => (
         <p key={piece.title}> <Link href={piece.link}>{piece.title}</Link></p>
       ))}
     </div>

@@ -1,0 +1,53 @@
+{
+    "interviews":[
+        {   "title": "Leo independientes",
+            "link": "https://www.youtube.com/watch?v=XdoKCwe6QDU"
+        },
+        {   "title": "Quiero tu puesto",
+            "link": "https://www.youtube.com/watch?v=s9pGQ8m7gbI&feature=youtu.be"
+        },
+        {   "title": "LDP Magazine",
+            "link": "https://www.facebook.com/watch/live/?ref=watch_permalink&v=1291808814582484"
+        },
+        { 
+            "title": "Revista Montaje",
+            "link": "https://revistamontaje.cl/index.php/2021/02/15/dialogo-con-editoras-daniela-cortes-loba-ediciones/"
+        },
+        {
+            "title": "EducaFem",
+            "link": "https://www.facebook.com/daniela.c.delcastillo/posts/pfbid031KaPtS9SszQawMnfUQ4TNHpP6gYszme4xKTcoy5Q7ZcAG3Ntb7kY5eT9vpPEbHEml"
+        },
+        {
+            "title": "Revista Primera Persona",
+            "link": "https://www.facebook.com/watch/?v=2633196853672456"
+        },
+        {
+            "title": "La frontera de los libros",
+            "link": "https://www.youtube.com/watch?v=AvQfgwwMaqs"
+        },
+        {
+            "title": "El Mercurio",
+            "link": "https://digital.elmercurio.com/mobile"
+        },
+        {
+            "title": "Radio Pauta",
+            "link": "https://www.youtube.com/watch?v=AKMxMvfjWYs"
+        },
+        {
+            "title": "Innovación Digital - Radio Universidad de la República",
+            "link": "https://radio.ulare.cl/2018/03/26/"
+        },
+        {
+            "title": "Padres al día - Radio Universidad de Chile",
+            "link": "http://radio.uchile.cl/programas/padres-al-dia/452453/"
+        },
+        {
+            "title": "Diálogo Artístico - Radio Universidad de la República",
+            "link": "http://lobaediciones.cl/wp-content/uploads/2018/01/20180126-Dialogo-Artistico_Daniela-Cortes_Loba-Ediciones_Podcast_mezcla.mp3"
+        },
+        {
+            "title": "Lecturas en el Sur",
+            "link": "https://issuu.com/lecturasenelsur/docs/tomo_5.2/1"
+        }
+    ]
+}
