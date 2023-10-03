@@ -32,7 +32,7 @@ const navButtons = [
   },
   {
     label: "Edición",
-    path: "/edición",
+    path: "https://lobaediciones.cl/?page_id=2",
     icon: <FontAwesomeIcon icon={faBook} />
   },
   {
