@@ -5,10 +5,3 @@
     max-height: 100%;
     max-width: 100%;
 }
-
-@media only screen and (max-width: 768px){
-    .Header {
-        max-width: 100vw;
-    }
-
-    }

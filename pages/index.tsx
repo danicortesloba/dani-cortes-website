@@ -20,6 +20,7 @@ const Home = () => {
       <p className={styles.Paragraph}><Link href={indexText.linkedinLink}>{indexText.linkedinText}</Link></p>
       </div>
       <div className={styles.Image}> <Image
+       // layout='fill'
        width={0}
        height={0}
        sizes="100vw"
