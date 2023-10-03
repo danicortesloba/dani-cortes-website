@@ -24,3 +24,9 @@
 .backToHome {
   margin: 3rem 0 0;
 }
+
+.Paragraph {
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
