@@ -3,6 +3,7 @@ import Head from "next/head";
 import NavBar from "./NavBar";
 import navButtons from "../config/buttons";
 import Header from "./header"
+import Footer from "./Footer";
 
 const Layout = props => {
   return (
@@ -21,6 +22,8 @@ const Layout = props => {
         <div className={styles.Menu}> <NavBar navButtons={navButtons}/></div>
         <div className={styles.Content}>{props.children} </div>
       </div>
+
+      <Footer/>
 
     </div>
   );
