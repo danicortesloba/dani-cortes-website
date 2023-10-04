@@ -16,6 +16,7 @@ return (
   <Layout>
     <h2>Fotografía</h2> 
     <div>
+      
     <h1 onClick={()=>{
               {setHidden(!hidden)}
               {setShowModal(!showModal)} }} 
