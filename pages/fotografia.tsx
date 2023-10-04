@@ -10,6 +10,7 @@ import { clsx } from 'clsx';
 const Fotografia = () => {
   const [showModal, setShowModal] = useState(false)
   const [imageSrc, setImageSrc] = useState("")
+  const [hidden, setHidden] = useState(false)
 
 return (
   <Layout>
@@ -31,11 +32,10 @@ return (
         </div>
                  ))}
                  
-                 
-                 <h1 className={galleryStyle.closer}>X</h1>
-
       </div>
-      {showModal && ImageModal(imageSrc, showModal)}
+      <h1 className={galleryStyle.closer} onClick={()=>{setHidden(!hidden)}}>X</h1>
+
+      {showModal && ImageModal(imageSrc, showModal, hidden)}
       </div>
   </Layout>
 
