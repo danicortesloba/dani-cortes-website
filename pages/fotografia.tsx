@@ -1,11 +1,11 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import Image from 'next/image'
-import { clsx } from 'clsx';
 import gallery from '../public/gallery.json'
 import Layout from '../components/layout'
 import galleryStyle from './fotografia.module.css'
 import ImageModal from "./imageModal"
 import { useState } from 'react'
+import { clsx } from 'clsx';
+
 
 const Fotografia = () => {
   const [showModal, setShowModal] = useState(false)
@@ -14,28 +14,28 @@ const Fotografia = () => {
 return (
   <Layout>
     <h2>Fotografía</h2> 
+    <div>
       <div className={galleryStyle.strip}>
-      {showModal && ImageModal(imageSrc)}
       {gallery.photos.map((photo) => (
         <div key={photo.place}> 
                  <Image
-                 className={clsx({
-                  [galleryStyle.image]: showModal === false,
-                  [galleryStyle.modal]: showModal === true,
-                })}
+                  className={galleryStyle.image}
                  src={photo.src}
                  alt={photo.alt}
-                height={100}
-                width={100}
+                 width={100}
+                 height={100}
                 onClick={() => {{setImageSrc(photo.src)
-                setShowModal(true)
+                setShowModal(!showModal)
               } }}
                />
-               
         </div>
                  ))}
                  
                  
+                 <h1 className={galleryStyle.closer}>X</h1>
+
+      </div>
+      {showModal && ImageModal(imageSrc, showModal)}
       </div>
   </Layout>
 
