@@ -35,5 +35,8 @@
     "eslint-config-next": "13.4.19",
     "prettier": "^3.0.3",
     "typescript": "5.2.2"
+  },
+  "engines": {
+    "node": "18.13.0"
   }
 }
