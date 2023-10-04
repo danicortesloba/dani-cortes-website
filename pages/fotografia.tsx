@@ -10,12 +10,20 @@ import { clsx } from 'clsx';
 const Fotografia = () => {
   const [showModal, setShowModal] = useState(false)
   const [imageSrc, setImageSrc] = useState("")
-  const [hidden, setHidden] = useState(false)
+  const [hidden, setHidden] = useState(true)
 
 return (
   <Layout>
     <h2>Fotografía</h2> 
     <div>
+    <h1 onClick={()=>{
+              {setHidden(!hidden)}
+              {setShowModal(!showModal)} }} 
+              className={clsx({
+                [galleryStyle.closer]: showModal && !hidden,
+                [galleryStyle.hidden]:!showModal && hidden,
+              })}
+            >X</h1>  
       <div className={galleryStyle.strip}>
       {gallery.photos.map((photo) => (
         <div key={photo.place}> 
@@ -27,13 +35,13 @@ return (
                  height={100}
                 onClick={() => {{setImageSrc(photo.src)
                 setShowModal(!showModal)
+                setHidden(!hidden)
+                console.log(hidden)
               } }}
                />
         </div>
                  ))}
-                 
       </div>
-      <h1 className={galleryStyle.closer} onClick={()=>{setHidden(!hidden)}}>X</h1>
 
       {showModal && ImageModal(imageSrc, showModal, hidden)}
       </div>

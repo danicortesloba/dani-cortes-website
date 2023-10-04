@@ -7,18 +7,17 @@ import galleryStyle from './fotografia.module.css'
 const ImageModal = (photo : string, showModal:boolean, hidden:boolean) => {
 
     return(
-        <div>
+        
              <Image
              className={clsx({
-                [galleryStyle.modal]: hidden=== false,
-                [galleryStyle.hidden]: hidden === true,
+                [galleryStyle.modal]: showModal && !hidden,
+                [galleryStyle.hidden]:!showModal && hidden ,
               })}
                  src={photo}
                  alt={photo}
                  layout='fill'
                  objectFit='contain'
                />
-        </div>
 
     )
 }
