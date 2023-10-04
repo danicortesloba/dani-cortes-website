@@ -1,11 +1,10 @@
 .Header {
-  width: 100%;
-  max-width: 1500px;
+  max-width: 99vw;
   height: auto;
 }
 
 .Body {
-  margin: 10px 10px 10px 10px;
+  max-width: 100vw;
   display: flex;
   flex-direction: row;
   height: auto;
@@ -13,16 +12,13 @@
 
 .Content {
   text-align: center;
-  width: 70%;
+  width: 100%;
 }
 
 .Menu {
   border-right: black 2px solid;
   margin-top: 100px;
-}
-
-.backToHome {
-  margin: 3rem 0 0;
+  justify-items: left;
 }
 
 .Paragraph {
@@ -32,8 +28,9 @@
 }
 
 .Layout {
-  max-width: max-content;
+  max-width: 99vw;
   align-content: center;
+  margin-left: 4px;
 }
 
 @media only screen and (max-width: 768px){

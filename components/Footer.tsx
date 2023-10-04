@@ -5,12 +5,13 @@ import linkedInImage from "../public/images/linkedIn.png"
 import instagramImage from "../public/images/instagram.jpeg"
 import lobaImage from "../public/images/loba.jpeg"
 import gitHub from "../public/images/github.png"
+import soundCloud from "../public/images/soundcloud.jpeg"
 
 
 const Footer = () => {
     return (
       <div className={footerStyle.footer}>
-        <Link href="https://www.instagram.com/dani.cortes.dc/"><Image
+        <Link href="https://www.instagram.com/howl.pictures/"><Image
         className={footerStyle.image}
          priority
          src={instagramImage}
@@ -40,6 +41,15 @@ const Footer = () => {
          priority
          src={gitHub}
          alt="Github"
+         height={100}
+       />
+       </Link>
+      <Link href="https://soundcloud.com/howl-poetry">
+       <Image
+         className={footerStyle.image}
+         priority
+         src={soundCloud}
+         alt="Sound Cloud"
          height={100}
        />
        </Link>

@@ -10,10 +10,10 @@ const Header = () => {
          priority
          src={headerImage}
          alt="Dani Cortés Website"
-         width={0}
        height={0}
+       width={0}
        sizes="100vw"
-       style={{ width: '100%', height: 'auto' }}/>
+       style={{ width: '100vw', height: 'auto' }}/>
          
       </div>
     );
