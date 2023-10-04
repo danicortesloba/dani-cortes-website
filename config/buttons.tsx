@@ -6,7 +6,8 @@ import {
   faUser,
   faBook,
   faMicrophoneAlt,
-  faEnvelope
+  faEnvelope,
+  faMusic
 } from "@fortawesome/free-solid-svg-icons";
 
 const navButtons = [
@@ -24,6 +25,11 @@ const navButtons = [
     label: "Fotografía",
     path: "/fotografia",
     icon: <FontAwesomeIcon icon={faCameraRetro} />
+  },
+  {
+    label: "Música",
+    path: "/musica",
+    icon: <FontAwesomeIcon icon={faMusic} />
   },
   {
     label: "Entrevistas",

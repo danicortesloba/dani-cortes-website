@@ -19,3 +19,17 @@
   text-transform: capitalize;
   text-align: left;
 }
+
+@media only screen and (max-width: 768px){
+  .NavButton {
+    margin: 2px 2px 2px 2px;
+  }
+
+  .Icon {
+    font-size: 10px;
+  }
+  .Label{
+    font-size: 15px;
+    text-align: center;
+  }
+}
