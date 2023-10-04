@@ -8,9 +8,10 @@ const Music = () => {
         <Layout>
             <h2>Música</h2>
             <div className={musicStyle.spotify}>
-                <iframe  src="https://open.spotify.com/embed/artist/3ub86qNy2TeMhmbCCWwUdO?utm_source=generator" 
+                <iframe  src="https://open.spotify.com/embed/artist/3ub86qNy2TeMhmbCCWwUdO?utm_source=generator&theme=0" 
                 width="90%" 
                 height="400px"
+                color='black'
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                 loading="lazy"></iframe>
             </div>
