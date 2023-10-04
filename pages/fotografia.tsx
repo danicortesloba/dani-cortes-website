@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import gallery from '../public/gallery.json'
 import Layout from '../components/layout'
 import galleryStyle from './fotografia.module.css'
@@ -16,7 +17,8 @@ return (
   <Layout>
     <h2>Fotografía</h2> 
     <div>
-      
+    <p>Revisa todas las fotos de Dani en <Link href="https://www.instagram.com/howl.pictures/">Instagram</Link></p>
+
     <h1 onClick={()=>{
               {setHidden(!hidden)}
               {setShowModal(!showModal)} }} 
