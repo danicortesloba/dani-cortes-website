@@ -4,12 +4,14 @@ import Link from 'next/link'
 import linkedInImage from "../public/images/linkedIn.png"
 import instagramImage from "../public/images/instagram.jpeg"
 import lobaImage from "../public/images/loba.jpeg"
+import gitHub from "../public/images/github.png"
 
 
 const Footer = () => {
     return (
       <div className={footerStyle.footer}>
         <Link href="https://www.instagram.com/dani.cortes.dc/"><Image
+        className={footerStyle.image}
          priority
          src={instagramImage}
          alt="Instagram"
@@ -17,6 +19,7 @@ const Footer = () => {
        /></Link>
         <Link href="https://www.linkedin.com/in/danielacortesdelcastillo/">   
         <Image
+         className={footerStyle.image}
          priority
          src={linkedInImage}
          alt="LinkedIn"
@@ -24,9 +27,19 @@ const Footer = () => {
        /></Link>
        <Link href="https://lobaediciones.cl">
        <Image
+         className={footerStyle.image}
          priority
          src={lobaImage}
          alt="Loba Ediciones"
+         height={100}
+       />
+       </Link>
+       <Link href="https://github.com/danicortesloba">
+       <Image
+         className={footerStyle.image}
+         priority
+         src={gitHub}
+         alt="Github"
          height={100}
        />
        </Link>
