@@ -1,8 +1,8 @@
-import styles from "./NavBar.module.css";
+import NavStyles from "./NavBar.module.css";
 import NavButton from "./NavButton";
 
 const NavBar = props => (
-  <div className={styles.NavBar}>
+  <div className={NavStyles.NavBar}>
   
       {props.navButtons.map(button => (
         <NavButton
