@@ -2,7 +2,7 @@ import NavStyles from "./NavBar.module.css";
 import NavButton from "./NavButton";
 
 const NavBar = props => (
-  <div className={NavStyles.NavBar}>
+  <div className={NavStyles.Menu}>
   
       {props.navButtons.map(button => (
         <NavButton
