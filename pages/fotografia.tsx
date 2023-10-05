@@ -18,15 +18,14 @@ return (
     <h2>Fotografía</h2> 
     <div>
     <p>Revisa todas las fotos de Dani en <Link href="https://www.instagram.com/howl.pictures/">Instagram</Link></p>
-
-    <h1 onClick={()=>{
+    <p onClick={()=>{
               {setHidden(!hidden)}
               {setShowModal(!showModal)} }} 
               className={clsx({
                 [galleryStyle.closer]: showModal && !hidden,
                 [galleryStyle.hidden]:!showModal && hidden,
               })}
-            >X</h1>  
+            >Cerrar X</p> 
       <div className={galleryStyle.strip}>
       {gallery.photos.map((photo) => (
         <div key={photo.place}> 
@@ -45,6 +44,7 @@ return (
         </div>
                  ))}
       </div>
+      
 
       {showModal && ImageModal(imageSrc, showModal, hidden)}
       </div>

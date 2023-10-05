@@ -29,5 +29,10 @@
     color: black;
     text-align: right;
     position:relative;
-    z-index: 1500
+    z-index: 1500;
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px; 
+    margin-left: 15px;
+    padding: 5px;
 }
