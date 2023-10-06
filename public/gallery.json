@@ -6,11 +6,6 @@
             "place":"0"
         },
         {
-            "src":"/images/carousel/astronaut.jpg",
-            "alt":"Little girl as astronaunt",
-            "place":"1"
-        },
-        {
             "src":"/images/carousel/capitan.jpeg",
             "alt":"Queer captain",
             "place":"2"
@@ -19,11 +14,6 @@
             "src":"/images/carousel/corina.jpg",
             "alt":"Grandmother",
             "place":"3"
-        },
-        {
-            "src":"/images/carousel/dolls.jpg",
-            "alt":"Dolls in window",
-            "place":"4"
         },
         {
             "src":"/images/carousel/eric.jpeg",
@@ -69,11 +59,6 @@
             "src":"/images/carousel/Vietnam.jpg",
             "alt":"Vietnam",
             "place":"13"
-        },
-        {
-            "src":"/images/carousel/wolf.jpg",
-            "alt":"Wolf in white dress",
-            "place":"14"
         }
     ]
 }
