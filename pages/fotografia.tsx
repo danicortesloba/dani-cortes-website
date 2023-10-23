@@ -38,7 +38,6 @@ return (
                 onClick={() => {{setImageSrc(photo.src)
                 setShowModal(!showModal)
                 setHidden(!hidden)
-                console.log(hidden)
               } }}
                />
         </div>
