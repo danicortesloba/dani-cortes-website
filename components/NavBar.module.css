@@ -9,53 +9,34 @@
     flex-direction: column;
 }
 
-.Hamburger {
-    background-color: black;
-    overflow: hidden;
-    visibility: hidden ;
-    height: 0px;
-  }
+.collapsed {
+  visibility: hidden;
+  height: 0px;
+}
 
-    .icon {
-    visibility: hidden;
-  }
+.icon {
+  visibility: hidden;
+}
+
 
   @media screen and (max-width: 600px) {
     .Menu {
-        max-height: 15px;
-      visibility: hidden;
-    }
+    max-height: 15px;
+    visibility: hidden;
   }
 
-  @media screen and (max-width: 600px) {
     .icon {
-      float: right;
       visibility: visible;
-    }
+      text-align: left;
+      height: 100%;
   }
 
-  @media screen and (max-width: 600px) {
-    .icon  {position: relative;
-      position: absolute;
-      right: 0;
-      top: 0;
-      visibility: visible;
-      float: none;
-      display: block;
-      text-align: left;
-      visibility: visible;
+    .visible {
+      visibility: visible !important;
       height: 100%;
+      color: black;
+      margin-bottom: 0px;
     }
-    .responsive  {position: relative;
-        position: absolute;
-        right: 0;
-        top: 0;
-        visibility: visible;
-        float: none;
-        display: block;
-        text-align: left;
-        visibility: visible;
-        height: fit-content;
-        max-height: 100%;
-      }
+
+      
   }
