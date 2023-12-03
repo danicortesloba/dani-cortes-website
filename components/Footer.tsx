@@ -6,6 +6,7 @@ import instagramImage from "../public/images/instagram.jpeg"
 import lobaImage from "../public/images/loba.jpeg"
 import gitHub from "../public/images/github.png"
 import soundCloud from "../public/images/soundcloud.jpeg"
+import unicorn from "../public/images/unicornalone.png"
 
 
 const Footer = () => {
@@ -50,6 +51,15 @@ const Footer = () => {
          priority
          src={soundCloud}
          alt="Sound Cloud"
+         height={100}
+       />
+       </Link>
+       <Link href="https://unicornsolutions.cl">
+       <Image
+         className={footerStyle.image}
+         priority
+         src={unicorn}
+         alt="Unicorn Solutions"
          height={100}
        />
        </Link>
