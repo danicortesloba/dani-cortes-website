@@ -17,7 +17,7 @@ return (
   <Layout>
     <h2>Fotografía</h2> 
     <div>
-    <p>Revisa todas las fotos de Dani en <Link href="https://www.instagram.com/dani.cortes.dc/">Instagram</Link></p>
+    <p>Revisa todas las fotos de Dani en <Link href="https://www.instagram.com/dani.cortes.d.c/">Instagram</Link></p>
     <p onClick={()=>{
               {setHidden(!hidden)}
               {setShowModal(!showModal)} }} 
