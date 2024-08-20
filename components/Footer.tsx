@@ -12,7 +12,7 @@ import unicorn from "../public/images/unicornalone.png"
 const Footer = () => {
     return (
       <div className={footerStyle.footer}>
-        <Link href="https://www.instagram.com/howl.pictures/"><Image
+        <Link href="https://www.instagram.com/dani.cortes.dc/"><Image
         className={footerStyle.image}
          priority
          src={instagramImage}
