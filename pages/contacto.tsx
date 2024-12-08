@@ -40,6 +40,7 @@ export default function Home() {
           name="email"
           autoComplete="email"
           required
+          className={formStyle.input}
         />
       </div>
       <div className={formStyle.block}>
@@ -50,6 +51,7 @@ export default function Home() {
           name="phone"
           autoComplete="tel"
           required
+          className={formStyle.input}
         />
       </div>
       <div className={formStyle.block}>
@@ -61,6 +63,7 @@ export default function Home() {
             name="first"
             autoComplete="given-name"
             required
+            className={formStyle.input}
           />
         </div>
         <div className={formStyle.block}>
@@ -71,6 +74,7 @@ export default function Home() {
             name="last"
             autoComplete="family-name"
             required
+            className={formStyle.input}
           />
         </div>
       </div>
@@ -78,8 +82,8 @@ export default function Home() {
         <label htmlFor="frm-message" className={formStyle.name}>Mensaje</label>
         <textarea id="frm-message" name="message" required className={formStyle.message}></textarea>
       </div>
-      <div className={ formStyle.button}>
-        <button type="submit">Enviar</button>
+      <div >
+        <button className={formStyle.button} type="submit">Enviar</button>
       </div>
     </form>
 }
